@@ -58,8 +58,43 @@ body{
     border: 0;
     outline: 0;
     border-radius: 20px;
-    background-color: khaki;
     margin-left: 10px;
     text-transform: capitalize;
     cursor: pointer;
+}
+
+.cards-grid{
+    background-color: khaki;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+}
+
+.cards-grid .card{
+    background-color: aqua;
+    max-width: 250px;
+    height: 150px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card .card-details{
+    display: flex;
+    background-color: wheat;
+    gap: 10px;
+}
+
+.card-details .title{
+    font-weight: bold;
+}
+
+.card .card-actions{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
