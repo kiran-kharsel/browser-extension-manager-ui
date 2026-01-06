@@ -34,7 +34,32 @@ body{
 }
 
 .logo-section .logo{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-transform: capitalize;
     font-weight: bold;
+}
+
+.header-section{
+    width: 100%;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .header-section .header-actions{
+    background-color: navajowhite;
+    height: 100%;
+} */
+
+.header-actions button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    background-color: khaki;
+    margin-left: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
 }
