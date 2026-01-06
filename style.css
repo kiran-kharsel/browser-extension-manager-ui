@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container{
+    width: 800px;
+    height: auto;
+    background-color: saddlebrown;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+
+.logo-section{
+    width: 100%;
+    background-color: skyblue;
+    padding: 15px 0px;
+
+}
+
+.logo-section .logo{
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
